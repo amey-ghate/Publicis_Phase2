@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+    stages{
+        stage('Compile'){
+            steps{
+                echo 'Compilation stage'
+                sh 'mvn compile'
+            }
+        }
+        stage('Test'){
+            steps{
+                echo 'Testing stage'
+                sh 'mvn test'
+            }
+            post {
+                success {
+                    junit 'target/surefire-reports/**/*.xml' 
+                }
+            }
+        }
+        stage('Package'){
+            steps{
+                echo 'Packaging stage'
+                sh 'mvn package'
+            }
+        }
+    }
+}
