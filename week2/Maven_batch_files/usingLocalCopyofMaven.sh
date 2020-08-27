@@ -1,0 +1,1 @@
+mvn -Dmaven.repo.local=$HOME/.m2 clean install

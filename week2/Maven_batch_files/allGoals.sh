@@ -1,0 +1,1 @@
+mvn help:describe –Dplugin=eclipse
