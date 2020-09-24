@@ -1,0 +1,31 @@
+package com.amey.date_time_calculator.calculations;
+
+public class NaturalLanguageTransformation {
+	public enum DatePhrases {
+	YEAR_AFTER,
+	WEEK_BEFORE,
+	NEXT_WEEK,
+	TODAY,
+	TOMORROW,
+	PREVIOUS_YEAR,
+	WEEK_AFTER,
+	LAST_MONTH,
+	LAST_DAY,
+	LAST_WEEK,
+	PREVIOUS_DAY,
+	PREVIOUS_WEEK,
+	PREVIOUS_MONTH,
+	YEAR_BEFORE,
+	DAY_BEFORE_YESTERDAY,
+	DAY_AFTER_TOMORROW,
+	LAST_YEAR,
+	NEXT_DAY,
+	MONTH_AFTER,
+	NEXT_MONTH,
+	NEXT_YEAR,
+	MONTH_BEFORE,
+	YESTERDAY
+
+	
+}
+}
