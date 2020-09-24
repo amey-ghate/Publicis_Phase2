@@ -28,7 +28,7 @@ public class BasicCalculations {
 		System.out.println("Weeks: ");
 		System.out.println(d / 7.0);
 		System.out.println("Months: ");
-		System.out.println((d / 7.0) / 4.0);
+		System.out.println((d / 30.0));
 		System.out.println("years: ");
 		System.out.println(d / 365.0);
 
