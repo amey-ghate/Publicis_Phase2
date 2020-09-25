@@ -1,6 +1,5 @@
 Date Time calculator in NodeJS with ES6 and Docker
 
-
 Installation Procedure:
 
 Commands to run this file.
